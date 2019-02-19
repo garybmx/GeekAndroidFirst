@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">GeekAndroidFirst</string>
+    <string name="app_name">Приложение погода</string>
+    <string name="weather_text">Погода</string>
 </resources>
