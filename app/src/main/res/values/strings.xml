@@ -10,4 +10,10 @@
     <string name="wind_value">6 м/c</string>
     <string name="wind_course">СЗ</string>
 
+    <string name="city_help">Введите город</string>
+    <string name="send">Отправить</string>
+    <string name="switch1">Дата</string>
+    <string name="check1">Влажность</string>
+    <string name="check2">Направление ветра</string>
+    <string name="check3">Скорость ветра</string>
 </resources>
