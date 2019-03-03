@@ -9,23 +9,16 @@ import android.widget.TextView;
 
 public class SecondActivity extends AppCompatActivity {
 
-    private TextView cityText;
-    private TextView dateText;
-    private LinearLayout dampBlock;
-    private LinearLayout windBlock;
-    private TextView windValueText;
-    private TextView windCourseText;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-        cityText = (TextView) findViewById(R.id.city_text);
-        dateText = (TextView) findViewById(R.id.date_text);
-        dampBlock = (LinearLayout) findViewById(R.id.damp_block);
-        windBlock = (LinearLayout) findViewById(R.id.wind_block);
-        windValueText = (TextView) findViewById(R.id.wind_value_text);
-        windCourseText = (TextView) findViewById(R.id.wind_course_text);
+        TextView cityText = (TextView) findViewById(R.id.city_text);
+        TextView dateText = (TextView) findViewById(R.id.date_text);
+        LinearLayout dampBlock = (LinearLayout) findViewById(R.id.damp_block);
+        LinearLayout windBlock = (LinearLayout) findViewById(R.id.wind_block);
+        TextView windValueText = (TextView) findViewById(R.id.wind_value_text);
+        TextView windCourseText = (TextView) findViewById(R.id.wind_course_text);
 
 
         String cityName = getIntent().getExtras().getString("CITY_NAME");

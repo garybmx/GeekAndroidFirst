@@ -21,12 +21,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        sendButton = (Button) findViewById(R.id.send_button);
-        cityName = (EditText) findViewById(R.id.city_name);
-        isDate = (Switch) findViewById(R.id.isDate);
-        isDamp = (CheckBox) findViewById(R.id.isDamp);
-        isWindValue = (CheckBox) findViewById(R.id.isWindValue);
-        isWindCourse = (CheckBox) findViewById(R.id.isWindCourse);
+        sendButton = findViewById(R.id.send_button);
+        cityName = findViewById(R.id.city_name);
+        isDate = findViewById(R.id.isDate);
+        isDamp = findViewById(R.id.isDamp);
+        isWindValue = findViewById(R.id.isWindValue);
+        isWindCourse = findViewById(R.id.isWindCourse);
 
         sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
